@@ -3,7 +3,7 @@ description: "apply flitter_secure_storage to simple architecture framework"
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/sa_flutter_secure_storage_lego
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'

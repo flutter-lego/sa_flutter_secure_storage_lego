@@ -18,4 +18,14 @@ lego add sa_flutter_secure_storage_lego
 ```
 
 ## Usage
-Usage here
+```dart
+Check check = await CheckFlutterSecureStorage.get();
+print(check.toMap());
+
+check.s000 = "hello";
+
+await CheckFlutterSecureStorage.upsert(check);
+
+Check check2 = await CheckFlutterSecureStorage.get();
+print(check2.toMap());
+```
