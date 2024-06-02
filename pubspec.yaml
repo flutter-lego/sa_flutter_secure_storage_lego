@@ -1,7 +1,7 @@
 name: sa_flutter_secure_storage_lego
 description: "apply flitter_secure_storage to simple architecture framework"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/lego
+repository: https://github.com/flutter-lego/sa_flutter_secure_storage_lego
 
 version: 1.0.0
 
