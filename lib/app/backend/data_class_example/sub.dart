@@ -1,12 +1,15 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 import '../../../../../../../main.dart';
 
 import 'dart:convert';
 
-class New {
-  New() {
+import '../enum_example/enum_test.dart';
+import 'sub.dart';
+import 'sub2.dart';
+
+class Sub {
+  Sub() {
     docId = randomString(10); // select your docId generation method
   }
 
@@ -111,7 +114,7 @@ class New {
   // String s097 = "";
   // String s098 = "";
   // String s099 = "";
-  // int i000 = 0;
+  int i000 = 0;
   // int i001 = 0;
   // int i002 = 0;
   // int i003 = 0;
@@ -211,7 +214,7 @@ class New {
   // int i097 = 0;
   // int i098 = 0;
   // int i099 = 0;
-  // bool b000 = false;
+  bool b000 = false;
   // bool b001 = false;
   // bool b002 = false;
   // bool b003 = false;
@@ -242,7 +245,7 @@ class New {
   // bool b028 = false;
   // bool b029 = false;
   // bool b030 = false;
-  // num r000 = 0;
+  num r000 = 0;
   // num r001 = 0;
   // num r002 = 0;
   // num r003 = 0;
@@ -273,7 +276,7 @@ class New {
   // num r028 = 0;
   // num r029 = 0;
   // num r030 = 0;
-  // DateTime t000 = DateTime.fromMillisecondsSinceEpoch(0);
+  DateTime t000 = DateTime.fromMillisecondsSinceEpoch(0);
   // DateTime t001 = DateTime.fromMillisecondsSinceEpoch(0);
   // DateTime t002 = DateTime.fromMillisecondsSinceEpoch(0);
   // DateTime t003 = DateTime.fromMillisecondsSinceEpoch(0);
@@ -294,7 +297,7 @@ class New {
   // DateTime t018 = DateTime.fromMillisecondsSinceEpoch(0);
   // DateTime t019 = DateTime.fromMillisecondsSinceEpoch(0);
   // DateTime t020 = DateTime.fromMillisecondsSinceEpoch(0);
-  // List<dynamic> l000 = [];
+  List<dynamic> l000 = [];
   // List<dynamic> l001 = [];
   // List<dynamic> l002 = [];
   // List<dynamic> l003 = [];
@@ -315,7 +318,7 @@ class New {
   // List<dynamic> l018 = [];
   // List<dynamic> l019 = [];
   // List<dynamic> l020 = [];
-  // OtherModel c000 = OtherModel();
+  Sub2 c000 = Sub2();
   // OtherModel c001 = OtherModel();
   // OtherModel c002 = OtherModel();
   // OtherModel c003 = OtherModel();
@@ -336,7 +339,7 @@ class New {
   // OtherModel c018 = OtherModel();
   // OtherModel c019 = OtherModel();
   // OtherModel c020 = OtherModel();
-  // List<OtherModel> j000 = [];
+  List<Sub2> j000 = [];
   // List<OtherModel> j001 = [];
   // List<OtherModel> j002 = [];
   // List<OtherModel> j003 = [];
@@ -357,7 +360,7 @@ class New {
   // List<OtherModel> j018 = [];
   // List<OtherModel> j019 = [];
   // List<OtherModel> j020 = [];
-  // SomeEnum e000 = SomeEnum.notSelected;
+  EnumTestEnum e000 = EnumTestEnum.notSelected;
   // SomeEnum e001 = SomeEnum.notSelected;
   // SomeEnum e002 = SomeEnum.notSelected;
   // SomeEnum e003 = SomeEnum.notSelected;
@@ -483,7 +486,7 @@ class New {
       // 's097': s097,
       // 's098': s098,
       // 's099': s099,
-      // 'i000': i000.toString(),
+      'i000': i000.toString(),
       // 'i001': i001.toString(),
       // 'i002': i002.toString(),
       // 'i003': i003.toString(),
@@ -583,7 +586,7 @@ class New {
       // 'i097': i097.toString(),
       // 'i098': i098.toString(),
       // 'i099': i099.toString(),
-      // 'b000': b000.toString(),
+      'b000': b000.toString(),
       // 'b001': b001.toString(),
       // 'b002': b002.toString(),
       // 'b003': b003.toString(),
@@ -614,7 +617,7 @@ class New {
       // 'b028': b028.toString(),
       // 'b029': b029.toString(),
       // 'b030': b030.toString(),
-      // 'r000': r000.toString(),
+      'r000': r000.toString(),
       // 'r001': r001.toString(),
       // 'r002': r002.toString(),
       // 'r003': r003.toString(),
@@ -645,7 +648,7 @@ class New {
       // 'r028': r028.toString(),
       // 'r029': r029.toString(),
       // 'r030': r030.toString(),
-      // 't000': t000.millisecondsSinceEpoch.toString(),
+      't000': t000.millisecondsSinceEpoch.toString(),
       // 't001': t001.millisecondsSinceEpoch.toString(),
       // 't002': t002.millisecondsSinceEpoch.toString(),
       // 't003': t003.millisecondsSinceEpoch.toString(),
@@ -666,7 +669,7 @@ class New {
       // 't018': t018.millisecondsSinceEpoch.toString(),
       // 't019': t019.millisecondsSinceEpoch.toString(),
       // 't020': t020.millisecondsSinceEpoch.toString(),
-      // 'l000': json.encode(l000),
+      'l000': json.encode(l000),
       // 'l001': json.encode(l001),
       // 'l002': json.encode(l002),
       // 'l003': json.encode(l003),
@@ -687,7 +690,7 @@ class New {
       // 'l018': json.encode(l018),
       // 'l019': json.encode(l019),
       // 'l020': json.encode(l020),
-      // 'c000': c000.toDataString(),
+      'c000': c000.toDataString(),
       // 'c001': c001.toDataString(),
       // 'c002': c002.toDataString(),
       // 'c003': c003.toDataString(),
@@ -708,7 +711,7 @@ class New {
       // 'c018': c018.toDataString(),
       // 'c019': c019.toDataString(),
       // 'c020': c020.toDataString(),
-      // 'j000': jsonEncode(j000.map((model) => model.toDataString()).toList()),
+      'j000': jsonEncode(j000.map((model) => model.toDataString()).toList()),
       // 'j001': jsonEncode(j001.map((model) => model.toDataString()).toList()),
       // 'j002': jsonEncode(j002.map((model) => model.toDataString()).toList()),
       // 'j003': jsonEncode(j003.map((model) => model.toDataString()).toList()),
@@ -729,7 +732,7 @@ class New {
       // 'j018': jsonEncode(j018.map((model) => model.toDataString()).toList()),
       // 'j019': jsonEncode(j019.map((model) => model.toDataString()).toList()),
       // 'j020': jsonEncode(j020.map((model) => model.toDataString()).toList()),
-      // 'e000': e000.toStringValue(),
+      'e000': e000.toStringValue(),
       // 'e001': e001.toStringValue(),
       // 'e002': e002.toStringValue(),
       // 'e003': e003.toStringValue(),
@@ -754,10 +757,10 @@ class New {
     }).query));
   }
 
-  static New fromDataString(String dataString) {
+  static Sub fromDataString(String dataString) {
     Map<String, String> queryParams = Uri.splitQueryString(utf8.decode(base64.decode(dataString)));
 
-    New object = New();
+    Sub object = Sub();
 
     object.s000 = queryParams["s000"] ?? "";
     // object.s001 = queryParams["s001"] ?? "";
@@ -859,7 +862,7 @@ class New {
     // object.s097 = queryParams["s097"] ?? "";
     // object.s098 = queryParams["s098"] ?? "";
     // object.s099 = queryParams["s099"] ?? "";
-    // object.i000 = int.tryParse(queryParams["i000"] ?? "0") ?? 0;
+    object.i000 = int.tryParse(queryParams["i000"] ?? "0") ?? 0;
     // object.i001 = int.tryParse(queryParams["i001"] ?? "0") ?? 0;
     // object.i002 = int.tryParse(queryParams["i002"] ?? "0") ?? 0;
     // object.i003 = int.tryParse(queryParams["i003"] ?? "0") ?? 0;
@@ -959,7 +962,7 @@ class New {
     // object.i097 = int.tryParse(queryParams["i097"] ?? "0") ?? 0;
     // object.i098 = int.tryParse(queryParams["i098"] ?? "0") ?? 0;
     // object.i099 = int.tryParse(queryParams["i099"] ?? "0") ?? 0;
-    // object.b000 = bool.tryParse(queryParams["b000"] ?? "false") ?? false;
+    object.b000 = bool.tryParse(queryParams["b000"] ?? "false") ?? false;
     // object.b001 = bool.tryParse(queryParams["b001"] ?? "false") ?? false;
     // object.b002 = bool.tryParse(queryParams["b002"] ?? "false") ?? false;
     // object.b003 = bool.tryParse(queryParams["b003"] ?? "false") ?? false;
@@ -990,7 +993,7 @@ class New {
     // object.b028 = bool.tryParse(queryParams["b028"] ?? "false") ?? false;
     // object.b029 = bool.tryParse(queryParams["b029"] ?? "false") ?? false;
     // object.b030 = bool.tryParse(queryParams["b030"] ?? "false") ?? false;
-    // object.r000 = num.tryParse(queryParams["r000"] ?? "0") ?? 0;
+    object.r000 = num.tryParse(queryParams["r000"] ?? "0") ?? 0;
     // object.r001 = num.tryParse(queryParams["r001"] ?? "0") ?? 0;
     // object.r002 = num.tryParse(queryParams["r002"] ?? "0") ?? 0;
     // object.r003 = num.tryParse(queryParams["r003"] ?? "0") ?? 0;
@@ -1021,7 +1024,7 @@ class New {
     // object.r028 = num.tryParse(queryParams["r028"] ?? "0") ?? 0;
     // object.r029 = num.tryParse(queryParams["r029"] ?? "0") ?? 0;
     // object.r030 = num.tryParse(queryParams["r030"] ?? "0") ?? 0;
-    // object.t000 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t000"] ?? "0") ?? 0);
+    object.t000 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t000"] ?? "0") ?? 0);
     // object.t001 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t001"] ?? "0") ?? 0);
     // object.t002 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t002"] ?? "0") ?? 0);
     // object.t003 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t003"] ?? "0") ?? 0);
@@ -1042,7 +1045,7 @@ class New {
     // object.t018 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t018"] ?? "0") ?? 0);
     // object.t019 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t019"] ?? "0") ?? 0);
     // object.t020 = DateTime.fromMillisecondsSinceEpoch(int.tryParse(queryParams["t020"] ?? "0") ?? 0);
-    // object.l000 = jsonDecode(queryParams["l000"] ?? "[]");
+    object.l000 = jsonDecode(queryParams["l000"] ?? "[]");
     // object.l001 = jsonDecode(queryParams["l001"] ?? "[]");
     // object.l002 = jsonDecode(queryParams["l002"] ?? "[]");
     // object.l003 = jsonDecode(queryParams["l003"] ?? "[]");
@@ -1063,7 +1066,7 @@ class New {
     // object.l018 = jsonDecode(queryParams["l018"] ?? "[]");
     // object.l019 = jsonDecode(queryParams["l019"] ?? "[]");
     // object.l020 = jsonDecode(queryParams["l020"] ?? "[]");
-    // object.c000 = OtherModel.fromDataString(queryParams["c000"] ?? OtherModel().toDataString());
+    object.c000 = Sub2.fromDataString(queryParams["c000"] ?? Sub2().toDataString());
     // object.c001 = OtherModel.fromDataString(queryParams['c001'] ?? OtherModel().toDataString());
     // object.c002 = OtherModel.fromDataString(queryParams['c002'] ?? OtherModel().toDataString());
     // object.c003 = OtherModel.fromDataString(queryParams['c003'] ?? OtherModel().toDataString());
@@ -1084,7 +1087,7 @@ class New {
     // object.c018 = OtherModel.fromDataString(queryParams['c018'] ?? OtherModel().toDataString());
     // object.c019 = OtherModel.fromDataString(queryParams['c019'] ?? OtherModel().toDataString());
     // object.c020 = OtherModel.fromDataString(queryParams['c020'] ?? OtherModel().toDataString());
-    // object.j000 = List<String>.from(json.decode(queryParams['j000'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
+    object.j000 = List<String>.from(json.decode(queryParams['j000'] ?? "[]") ?? []).map((item) => Sub2.fromDataString(item)).toList();
     // object.j001 = List<String>.from(json.decode(queryParams['j001'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j002 = List<String>.from(json.decode(queryParams['j002'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j003 = List<String>.from(json.decode(queryParams['j003'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
@@ -1105,7 +1108,7 @@ class New {
     // object.j018 = List<String>.from(json.decode(queryParams['j018'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j019 = List<String>.from(json.decode(queryParams['j019'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j020 = List<String>.from(json.decode(queryParams['j020'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
-    // object.e000 = SomeEnum.fromString(queryParams["e000"] ?? SomeEnum.notSelected.toStringValue());
+    object.e000 = EnumTestEnum.fromString(queryParams["e000"] ?? EnumTestEnum.notSelected.toStringValue());
     // object.e001 = SomeEnum.fromString(queryParams["e001"] ?? SomeEnum.notSelected.toStringValue());
     // object.e002 = SomeEnum.fromString(queryParams["e002"] ?? SomeEnum.notSelected.toStringValue());
     // object.e003 = SomeEnum.fromString(queryParams["e003"] ?? SomeEnum.notSelected.toStringValue());
@@ -1235,7 +1238,7 @@ class New {
     // map["s097"] = s097;
     // map["s098"] = s098;
     // map["s099"] = s099;
-    // map["i000"] = i000;
+    map["i000"] = i000;
     // map["i001"] = i001;
     // map["i002"] = i002;
     // map["i003"] = i003;
@@ -1335,7 +1338,7 @@ class New {
     // map["i097"] = i097;
     // map["i098"] = i098;
     // map["i099"] = i099;
-    // map["b000"] = b000 ? 1 : 0;
+    map["b000"] = b000 ? 1 : 0;
     // map["b001"] = b001 ? 1 : 0;
     // map["b002"] = b002 ? 1 : 0;
     // map["b003"] = b003 ? 1 : 0;
@@ -1366,7 +1369,7 @@ class New {
     // map["b028"] = b028 ? 1 : 0;
     // map["b029"] = b029 ? 1 : 0;
     // map["b030"] = b030 ? 1 : 0;
-    // map["r000"] = r000;
+    map["r000"] = r000;
     // map["r001"] = r001;
     // map["r002"] = r002;
     // map["r003"] = r003;
@@ -1397,7 +1400,7 @@ class New {
     // map["r028"] = r028;
     // map["r029"] = r029;
     // map["r030"] = r030;
-    // map["t000"] = t000.millisecondsSinceEpoch;
+    map["t000"] = t000.millisecondsSinceEpoch;
     // map["t001"] = t001.millisecondsSinceEpoch;
     // map["t002"] = t002.millisecondsSinceEpoch;
     // map["t003"] = t003.millisecondsSinceEpoch;
@@ -1418,7 +1421,7 @@ class New {
     // map["t018"] = t018.millisecondsSinceEpoch;
     // map["t019"] = t019.millisecondsSinceEpoch;
     // map["t020"] = t020.millisecondsSinceEpoch;
-    // map["l000"] = jsonEncode(l000);
+    map["l000"] = jsonEncode(l000);
     // map["l001"] = jsonEncode(l001);
     // map["l002"] = jsonEncode(l002);
     // map["l003"] = jsonEncode(l003);
@@ -1439,7 +1442,7 @@ class New {
     // map["l018"] = jsonEncode(l018);
     // map["l019"] = jsonEncode(l019);
     // map["l020"] = jsonEncode(l020);
-    // map["c000"] = c000.toDataString();
+    map["c000"] = c000.toDataString();
     // map["c001"] = c001.toDataString();
     // map["c002"] = c002.toDataString();
     // map["c003"] = c003.toDataString();
@@ -1460,7 +1463,7 @@ class New {
     // map["c018"] = c018.toDataString();
     // map["c019"] = c019.toDataString();
     // map["c020"] = c020.toDataString();
-    // map["j000"] = jsonEncode(j000.map((model) => model.toDataString()).toList());
+    map["j000"] = jsonEncode(j000.map((model) => model.toDataString()).toList());
     // map["j001"] = jsonEncode(j001.map((model) => model.toDataString()).toList());
     // map["j002"] = jsonEncode(j002.map((model) => model.toDataString()).toList());
     // map["j003"] = jsonEncode(j003.map((model) => model.toDataString()).toList());
@@ -1481,7 +1484,7 @@ class New {
     // map["j018"] = jsonEncode(j018.map((model) => model.toDataString()).toList());
     // map["j019"] = jsonEncode(j019.map((model) => model.toDataString()).toList());
     // map["j020"] = jsonEncode(j020.map((model) => model.toDataString()).toList());
-    // map["e000"] = e000.toStringValue();
+    map["e000"] = e000.toStringValue();
     // map["e001"] = e001.toStringValue();
     // map["e002"] = e002.toStringValue();
     // map["e003"] = e003.toStringValue();
@@ -1508,8 +1511,8 @@ class New {
     return map;
   }
 
-  static New fromMap(Map<dynamic, dynamic> queryParams) {
-    New object = New();
+  static Sub fromMap(Map<dynamic, dynamic> queryParams) {
+    Sub object = Sub();
 
     object.s000 = queryParams["s000"] ?? "";
     // object.s001 = queryParams["s001"] ?? "";
@@ -1611,7 +1614,7 @@ class New {
     // object.s097 = queryParams["s097"] ?? "";
     // object.s098 = queryParams["s098"] ?? "";
     // object.s099 = queryParams["s099"] ?? "";
-    // object.i000 = queryParams["i000"] ?? 0;
+    object.i000 = queryParams["i000"] ?? 0;
     // object.i001 = queryParams["i001"] ?? 0;
     // object.i002 = queryParams["i002"] ?? 0;
     // object.i003 = queryParams["i003"] ?? 0;
@@ -1711,7 +1714,7 @@ class New {
     // object.i097 = queryParams["i097"] ?? 0;
     // object.i098 = queryParams["i098"] ?? 0;
     // object.i099 = queryParams["i099"] ?? 0;
-    // object.b000 = queryParams["b000"] == 1;
+    object.b000 = queryParams["b000"] == 1;
     // object.b001 = queryParams["b001"] == 1;
     // object.b002 = queryParams["b002"] == 1;
     // object.b003 = queryParams["b003"] == 1;
@@ -1742,7 +1745,7 @@ class New {
     // object.b028 = queryParams["b028"] == 1;
     // object.b029 = queryParams["b029"] == 1;
     // object.b030 = queryParams["b030"] == 1;
-    // object.r000 = queryParams["r000"] ?? 0;
+    object.r000 = queryParams["r000"] ?? 0;
     // object.r001 = queryParams["r001"] ?? 0;
     // object.r002 = queryParams["r002"] ?? 0;
     // object.r003 = queryParams["r003"] ?? 0;
@@ -1773,7 +1776,7 @@ class New {
     // object.r028 = queryParams["r028"] ?? 0;
     // object.r029 = queryParams["r029"] ?? 0;
     // object.r030 = queryParams["r030"] ?? 0;
-    // object.t000 = DateTime.fromMillisecondsSinceEpoch(queryParams["t000"] ?? 0);
+    object.t000 = DateTime.fromMillisecondsSinceEpoch(queryParams["t000"] ?? 0);
     // object.t001 = DateTime.fromMillisecondsSinceEpoch(queryParams["t001"] ?? 0);
     // object.t002 = DateTime.fromMillisecondsSinceEpoch(queryParams["t002"] ?? 0);
     // object.t003 = DateTime.fromMillisecondsSinceEpoch(queryParams["t003"] ?? 0);
@@ -1794,7 +1797,7 @@ class New {
     // object.t018 = DateTime.fromMillisecondsSinceEpoch(queryParams["t018"] ?? 0);
     // object.t019 = DateTime.fromMillisecondsSinceEpoch(queryParams["t019"] ?? 0);
     // object.t020 = DateTime.fromMillisecondsSinceEpoch(queryParams["t020"] ?? 0);
-    // object.l000 = jsonDecode(queryParams["l000"] ?? "[]");
+    object.l000 = jsonDecode(queryParams["l000"] ?? "[]");
     // object.l001 = jsonDecode(queryParams["l001"] ?? "[]");
     // object.l002 = jsonDecode(queryParams["l002"] ?? "[]");
     // object.l003 = jsonDecode(queryParams["l003"] ?? "[]");
@@ -1815,7 +1818,7 @@ class New {
     // object.l018 = jsonDecode(queryParams["l018"] ?? "[]");
     // object.l019 = jsonDecode(queryParams["l019"] ?? "[]");
     // object.l020 = jsonDecode(queryParams["l020"] ?? "[]");
-    // object.c000 = OtherModel.fromDataString(queryParams["c000"] ?? OtherModel().toDataString());
+    object.c000 = Sub2.fromDataString(queryParams["c000"] ?? Sub2().toDataString());
     // object.c001 = OtherModel.fromDataString(queryParams['c001'] ?? OtherModel().toDataString());
     // object.c002 = OtherModel.fromDataString(queryParams['c002'] ?? OtherModel().toDataString());
     // object.c003 = OtherModel.fromDataString(queryParams['c003'] ?? OtherModel().toDataString());
@@ -1836,7 +1839,7 @@ class New {
     // object.c018 = OtherModel.fromDataString(queryParams['c018'] ?? OtherModel().toDataString());
     // object.c019 = OtherModel.fromDataString(queryParams['c019'] ?? OtherModel().toDataString());
     // object.c020 = OtherModel.fromDataString(queryParams['c020'] ?? OtherModel().toDataString());
-    // object.j000 = List<String>.from(json.decode(queryParams['j000'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
+    object.j000 = List<String>.from(json.decode(queryParams['j000'] ?? "[]") ?? []).map((item) => Sub2.fromDataString(item)).toList();
     // object.j001 = List<String>.from(json.decode(queryParams['j001'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j002 = List<String>.from(json.decode(queryParams['j002'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j003 = List<String>.from(json.decode(queryParams['j003'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
@@ -1857,7 +1860,7 @@ class New {
     // object.j018 = List<String>.from(json.decode(queryParams['j018'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j019 = List<String>.from(json.decode(queryParams['j019'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
     // object.j020 = List<String>.from(json.decode(queryParams['j020'] ?? "[]") ?? []).map((item) => OtherModel.fromDataString(item)).toList();
-    // object.e000 = SomeEnum.fromString(queryParams["e000"] ?? SomeEnum.notSelected.toStringValue());
+    object.e000 = EnumTestEnum.fromString(queryParams["e000"] ?? EnumTestEnum.notSelected.toStringValue());
     // object.e001 = SomeEnum.fromString(queryParams["e001"] ?? SomeEnum.notSelected.toStringValue());
     // object.e002 = SomeEnum.fromString(queryParams["e002"] ?? SomeEnum.notSelected.toStringValue());
     // object.e003 = SomeEnum.fromString(queryParams["e003"] ?? SomeEnum.notSelected.toStringValue());
@@ -1883,49 +1886,4 @@ class New {
 
     return object;
   }
-}
-
-class NewFlutterSecureStorage {
-
-  static Future<New> get() async {
-    await _ready();
-
-    String? data = await storage.read(key: 'NewModel');
-
-    if (data == null) return New();
-
-    return New.fromDataString(data);
-  }
-
-  static Future<void> upsert(New obj) async {
-    await _ready();
-
-    String data = obj.toDataString();
-
-    await storage.write(key: 'NewModel', value: data);
-  }
-
-  static Future<void> delete() async {
-    await _ready();
-
-    await storage.delete(key: 'NewModel');
-  }
-
-
-  //////////////
-  static bool _isOpened = false;
-  static late FlutterSecureStorage storage;
-
-
-  static _ready() async {
-    if (!_isOpened) {
-      _isOpened = true;
-      await _open();
-    }
-  }
-
-  static _open() async {
-    storage = const FlutterSecureStorage();
-  }
-
 }

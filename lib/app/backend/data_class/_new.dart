@@ -314,6 +314,27 @@ class New {
   // List<dynamic> l018 = [];
   // List<dynamic> l019 = [];
   // List<dynamic> l020 = [];
+  // Map<String, dynamic> m000 = {};
+  // Map<String, dynamic> m001 = {};
+  // Map<String, dynamic> m002 = {};
+  // Map<String, dynamic> m003 = {};
+  // Map<String, dynamic> m004 = {};
+  // Map<String, dynamic> m005 = {};
+  // Map<String, dynamic> m006 = {};
+  // Map<String, dynamic> m007 = {};
+  // Map<String, dynamic> m008 = {};
+  // Map<String, dynamic> m009 = {};
+  // Map<String, dynamic> m010 = {};
+  // Map<String, dynamic> m011 = {};
+  // Map<String, dynamic> m012 = {};
+  // Map<String, dynamic> m013 = {};
+  // Map<String, dynamic> m014 = {};
+  // Map<String, dynamic> m015 = {};
+  // Map<String, dynamic> m016 = {};
+  // Map<String, dynamic> m017 = {};
+  // Map<String, dynamic> m018 = {};
+  // Map<String, dynamic> m019 = {};
+  // Map<String, dynamic> m020 = {};
   // OtherModel c000 = OtherModel();
   // OtherModel c001 = OtherModel();
   // OtherModel c002 = OtherModel();
@@ -686,6 +707,27 @@ class New {
       // 'l018': json.encode(l018),
       // 'l019': json.encode(l019),
       // 'l020': json.encode(l020),
+      // 'm000': json.encode(m000),
+      // 'm001': json.encode(m001),
+      // 'm002': json.encode(m002),
+      // 'm003': json.encode(m003),
+      // 'm004': json.encode(m004),
+      // 'm005': json.encode(m005),
+      // 'm006': json.encode(m006),
+      // 'm007': json.encode(m007),
+      // 'm008': json.encode(m008),
+      // 'm009': json.encode(m009),
+      // 'm010': json.encode(m010),
+      // 'm011': json.encode(m011),
+      // 'm012': json.encode(m012),
+      // 'm013': json.encode(m013),
+      // 'm014': json.encode(m014),
+      // 'm015': json.encode(m015),
+      // 'm016': json.encode(m016),
+      // 'm017': json.encode(m017),
+      // 'm018': json.encode(m018),
+      // 'm019': json.encode(m019),
+      // 'm020': json.encode(m020),
       // 'c000': c000.toDataString(),
       // 'c001': c001.toDataString(),
       // 'c002': c002.toDataString(),
@@ -1062,6 +1104,27 @@ class New {
     // object.l018 = jsonDecode(queryParams["l018"] ?? "[]");
     // object.l019 = jsonDecode(queryParams["l019"] ?? "[]");
     // object.l020 = jsonDecode(queryParams["l020"] ?? "[]");
+    // object.m000 = jsonDecode(queryParams["m000"] ?? "{}");
+    // object.m001 = jsonDecode(queryParams["m001"] ?? "{}");
+    // object.m002 = jsonDecode(queryParams["m002"] ?? "{}");
+    // object.m003 = jsonDecode(queryParams["m003"] ?? "{}");
+    // object.m004 = jsonDecode(queryParams["m004"] ?? "{}");
+    // object.m005 = jsonDecode(queryParams["m005"] ?? "{}");
+    // object.m006 = jsonDecode(queryParams["m006"] ?? "{}");
+    // object.m007 = jsonDecode(queryParams["m007"] ?? "{}");
+    // object.m008 = jsonDecode(queryParams["m008"] ?? "{}");
+    // object.m009 = jsonDecode(queryParams["m009"] ?? "{}");
+    // object.m010 = jsonDecode(queryParams["m010"] ?? "{}");
+    // object.m011 = jsonDecode(queryParams["m011"] ?? "{}");
+    // object.m012 = jsonDecode(queryParams["m012"] ?? "{}");
+    // object.m013 = jsonDecode(queryParams["m013"] ?? "{}");
+    // object.m014 = jsonDecode(queryParams["m014"] ?? "{}");
+    // object.m015 = jsonDecode(queryParams["m015"] ?? "{}");
+    // object.m016 = jsonDecode(queryParams["m016"] ?? "{}");
+    // object.m017 = jsonDecode(queryParams["m017"] ?? "{}");
+    // object.m018 = jsonDecode(queryParams["m018"] ?? "{}");
+    // object.m019 = jsonDecode(queryParams["m019"] ?? "{}");
+    // object.m020 = jsonDecode(queryParams["m020"] ?? "{}");
     // object.c000 = OtherModel.fromDataString(queryParams["c000"] ?? OtherModel().toDataString());
     // object.c001 = OtherModel.fromDataString(queryParams['c001'] ?? OtherModel().toDataString());
     // object.c002 = OtherModel.fromDataString(queryParams['c002'] ?? OtherModel().toDataString());
@@ -1438,6 +1501,27 @@ class New {
     // map["l018"] = jsonEncode(l018);
     // map["l019"] = jsonEncode(l019);
     // map["l020"] = jsonEncode(l020);
+    // map["m000"] = jsonEncode(m000);
+    // map["m001"] = jsonEncode(m001);
+    // map["m002"] = jsonEncode(m002);
+    // map["m003"] = jsonEncode(m003);
+    // map["m004"] = jsonEncode(m004);
+    // map["m005"] = jsonEncode(m005);
+    // map["m006"] = jsonEncode(m006);
+    // map["m007"] = jsonEncode(m007);
+    // map["m008"] = jsonEncode(m008);
+    // map["m009"] = jsonEncode(m009);
+    // map["m010"] = jsonEncode(m010);
+    // map["m011"] = jsonEncode(m011);
+    // map["m012"] = jsonEncode(m012);
+    // map["m013"] = jsonEncode(m013);
+    // map["m014"] = jsonEncode(m014);
+    // map["m015"] = jsonEncode(m015);
+    // map["m016"] = jsonEncode(m016);
+    // map["m017"] = jsonEncode(m017);
+    // map["m018"] = jsonEncode(m018);
+    // map["m019"] = jsonEncode(m019);
+    // map["m020"] = jsonEncode(m020);
     // map["c000"] = c000.toDataString();
     // map["c001"] = c001.toDataString();
     // map["c002"] = c002.toDataString();
@@ -1814,6 +1898,27 @@ class New {
     // object.l018 = jsonDecode(queryParams["l018"] ?? "[]");
     // object.l019 = jsonDecode(queryParams["l019"] ?? "[]");
     // object.l020 = jsonDecode(queryParams["l020"] ?? "[]");
+    // object.m000 = jsonDecode(queryParams["m000"] ?? "{}");
+    // object.m001 = jsonDecode(queryParams["m001"] ?? "{}");
+    // object.m002 = jsonDecode(queryParams["m002"] ?? "{}");
+    // object.m003 = jsonDecode(queryParams["m003"] ?? "{}");
+    // object.m004 = jsonDecode(queryParams["m004"] ?? "{}");
+    // object.m005 = jsonDecode(queryParams["m005"] ?? "{}");
+    // object.m006 = jsonDecode(queryParams["m006"] ?? "{}");
+    // object.m007 = jsonDecode(queryParams["m007"] ?? "{}");
+    // object.m008 = jsonDecode(queryParams["m008"] ?? "{}");
+    // object.m009 = jsonDecode(queryParams["m009"] ?? "{}");
+    // object.m010 = jsonDecode(queryParams["m010"] ?? "{}");
+    // object.m011 = jsonDecode(queryParams["m011"] ?? "{}");
+    // object.m012 = jsonDecode(queryParams["m012"] ?? "{}");
+    // object.m013 = jsonDecode(queryParams["m013"] ?? "{}");
+    // object.m014 = jsonDecode(queryParams["m014"] ?? "{}");
+    // object.m015 = jsonDecode(queryParams["m015"] ?? "{}");
+    // object.m016 = jsonDecode(queryParams["m016"] ?? "{}");
+    // object.m017 = jsonDecode(queryParams["m017"] ?? "{}");
+    // object.m018 = jsonDecode(queryParams["m018"] ?? "{}");
+    // object.m019 = jsonDecode(queryParams["m019"] ?? "{}");
+    // object.m020 = jsonDecode(queryParams["m020"] ?? "{}");
     // object.c000 = OtherModel.fromDataString(queryParams["c000"] ?? OtherModel().toDataString());
     // object.c001 = OtherModel.fromDataString(queryParams['c001'] ?? OtherModel().toDataString());
     // object.c002 = OtherModel.fromDataString(queryParams['c002'] ?? OtherModel().toDataString());
